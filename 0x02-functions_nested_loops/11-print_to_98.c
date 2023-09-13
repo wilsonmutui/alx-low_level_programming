@@ -7,36 +7,36 @@
  */
 void print_to_98(int w)
 {
-        if (w <= 98)
-        {       
-        for (; w <= 98; w++ )
-        {       
-        if (w == 98)
-        {       
-        printf("%d", w);
-        printf("\n");
-        break;
-        }
-        else
-        {       
-        printf("%d ", w );
-        }
-        }
-        }
-        else
-        {       
-        for (; w >= 98; w-- )
-        {       
-        if (w == 98)
-        {
-        printf("%d", w);
-        printf("\n");
-        break;
-        }
-        else
-        {
-        printf("%d, ", w);
-        }
-        }
-        }
+	if (w <= 98)
+	{
+		for (; w <= 98; w++)
+		{
+			if (n == 98)
+			{
+				printf("%d", w);
+				printf("\n");
+				break;
+			}
+			else
+			{
+				printf("%d ", w);
+			}
+		}
+	}
+	else
+	{
+		for (; w >= 98; w--)
+		{
+			if (w == 98)
+			{
+				printf("%d", w);
+				printf("\n");
+				break;
+			}
+			else
+			{
+				printf("%d, ", w);
+			}
+		}
+	}
 }
