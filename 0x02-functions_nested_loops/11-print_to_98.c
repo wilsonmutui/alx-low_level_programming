@@ -22,7 +22,18 @@ void print_to_98(int w)
 			{
 				printf("%d, ", w);
 			}
+			else
+			{
+				for (; n >= 98; n--)
+				{
+					if (n == 98)
+					{
+						printf("%d", w);
+						printf("\n");
+						break;
+					}
+				}
+			}
 		}
 	}
 }
-
