@@ -19,7 +19,7 @@ void print_to_98(int w)
 			}
 			else
 			{
-				printf("%d ", w);
+				printf("%d, ", w);
 			}
 		}
 	}
