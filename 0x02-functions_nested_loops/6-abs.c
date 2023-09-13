@@ -15,4 +15,3 @@ int _abs(int d)
 	}
 	return (d);
 }
-	
