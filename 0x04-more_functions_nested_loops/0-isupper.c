@@ -2,12 +2,12 @@
 
 /**
  * _isupper - Prints case valu of an alphabet
- * @w: Character to be checked
+ * @c: Character to be checked
  * Return: Rerutn 0 or 1 depending on the case
  */
 int _isupper(int c)
 {
-	if (w >= 'A' && (w <= 'Z'))
+	if (c >= 'A' && (c <= 'Z'))
 	{
 		return (1);
 	}
