@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#define pl 12
+#define pl 16
 
 int main(void)
 {
