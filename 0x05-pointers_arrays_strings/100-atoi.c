@@ -26,5 +26,5 @@ int _atoi(char *s)
 		}
 		i++;
 	}
-	return r * si;
+	return (r * si);
 }
