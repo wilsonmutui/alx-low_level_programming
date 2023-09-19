@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * puts2 - Prints every character of the string
- * @str - Refenced string
+ * @str: Refenced string
  * return: 0
  */
 void puts2(char *str)
