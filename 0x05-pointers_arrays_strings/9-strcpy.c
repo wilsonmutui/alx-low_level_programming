@@ -3,18 +3,16 @@
  * *_strcpy - Coopies string
  * @dest: String type
  * @src: String type
- * Returnn: Pointer to des
+ * Return: Pointer to des
  */
 char *_strcpy(char *dest, char *src)
 {
 	int w = -1;
 
-	do
-	{
+	do {
 		w++;
 		dest[w] = src[w];
-	}
-	while (src[w] != '\0');
+	} while (src[w] != '\0');
 
 	return (dest);
 }
