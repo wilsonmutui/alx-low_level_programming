@@ -25,7 +25,7 @@ int prime(int n, int w)
 	{
 		return (1);
 	}
-	if (n % w == 0 $$ w > 0)
+	if (n % w == 0 && w > 0)
 	{
 		return (0);
 	}
