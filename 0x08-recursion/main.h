@@ -12,4 +12,5 @@ int squareroot(int n , int i);
 int prime(int n, int w);
 
 
+
 #endif 
