@@ -8,7 +8,7 @@
  */
 char *_strdup(char *str)
 {
-	char *w;
+	char *www;
 	int q, m = 0;
 
 	if (str == NULL)
@@ -19,14 +19,14 @@ char *_strdup(char *str)
 	{
 		q++;
 	}
-	w = malloc(sizeof(char) * (q + 1));
-	if (w == NULL)
+	www = malloc(sizeof(char) * (q + 1));
+	if (www == NULL)
 	{
 		return (NULL);
 	}
 	for (m = 0; str[m]; m++)
 	{
-		w[m] = str[m];
+		www[m] = str[m];
 	}
-	return (w);
+	return (www);
 }
