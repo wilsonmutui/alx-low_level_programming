@@ -3,8 +3,9 @@
 #include <stdio.h>
 /**
  * _strdup - returns pointer to a newly allocated space
- * *str: Character
- * Return: 0
+ * @str: the string to be duplicated
+ * Description: string to be duplicated
+ * Return: nothing
  */
 char *_strdup(char *str)
 {
