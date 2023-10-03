@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * _strdup - returns pointer to a newly allocated space
- * str: character
+ * str: Character
  * Return: 0
  */
 char *_strdup(char *str)
